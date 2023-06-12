@@ -1,0 +1,23 @@
+body {
+    background-color: #DAE3E5;
+    font-family: 'Verdana', sans-serif;
+    }
+h1{
+  font-size: 37px;
+  color: #507DBC;
+  font-weight: bold;
+  text-align: center;
+}
+h2{
+  font-size: 30px;
+  color: #A1C6EA;
+  font-weight: bold;
+  text-align: center;
+}
+h3{
+  font-size: 20px;
+  color: #04080F;
+  font-weight: normal;
+  text-align: center;
+  justify-content: center;
+}
