@@ -21,6 +21,8 @@ h3{
   text-align: center;
   justify-content: center;
 }
+
+
 .Card{
   display:flex;
   flex-direction:column;
@@ -28,20 +30,8 @@ h3{
   width:420px;
   border: 1px solid #DAE3E5;
   border-radius:15px;
-  font-family: sans-serif;
+  font-family: verdana,sans-serif;
   background-color: white;
-}
-#card1{
-  margin-top: 0;
-  margin-left: 2px;
-}
-#card2{
-  margin-top: -537px;
-  margin-left: 450px;
-}
-#card3{
-  margin-top: -537;
-  margin-left: 900px;
 }
 .titulo{
   font-size: 24px;
@@ -55,7 +45,7 @@ img{
   width: 400px;
 }
 .pie{
-  background: #6699ff;
+  background: #A1C6EA;
   border-radius:0 0 15px 15px;
   padding: 10px;
   text-align:center;
@@ -71,4 +61,34 @@ img{
   bottom: 0;
   left: 0;
   z-index: 1;
+}
+
+
+.ficha{
+	border: 2px solid black;
+	border-radius: 1rem;
+	display: flex;
+	justify-content: space-between;
+	margin: 50px auto;
+	width: 500px;
+	font-family: Arial, sans-serif;
+	background-color: white;
+}
+.ficha #titulo{
+  text-align: left;
+  padding: 2px 0px 2px 2px;
+  font-weight: bold;
+}
+.ficha #cuerpo{
+	padding: 0 0 1rem 1rem;
+	width: 80%;
+}
+.ficha #cinta{
+	margin-right: 1.5rem;
+	position: relative;
+	width: 10%;
+}
+.ficha #texto{
+	color: dimgrey;
+	text-align: justify;
 }
