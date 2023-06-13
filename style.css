@@ -21,8 +21,6 @@ h3{
   text-align: center;
   justify-content: center;
 }
-
-
 .Card{
   display:flex;
   flex-direction:column;
@@ -32,23 +30,24 @@ h3{
   border-radius:15px;
   font-family: verdana,sans-serif;
   background-color: white;
+  position: absolute;
 }
 #card1{
   margin-top: 0;
-  margin-left: 60px;
+  margin-left: 0px;
 }
 
 #card2{
-  margin-top: -538px;
-  margin-left: 560px;
+  margin-top: 0px;
+  margin-left: 450px;
 }
 #card3{
-  margin-top: 35;
-  margin-left: 60px;
+  margin-top: 0;
+  margin-left: 900px;
 }
 #card4{
-  margin-top: -538px;
-  margin-left: 560px;
+  margin-top: 600px;
+  margin-left: 0px;
 }
 .titulo{
   font-size: 24px;
@@ -79,8 +78,6 @@ img{
   left: 0;
   z-index: 1;
 }
-
-
 .ficha{
 	border: 2px solid black;
 	border-radius: 1rem;
