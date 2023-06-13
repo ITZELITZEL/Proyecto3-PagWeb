@@ -33,6 +33,23 @@ h3{
   font-family: verdana,sans-serif;
   background-color: white;
 }
+#card1{
+  margin-top: 0;
+  margin-left: 60px;
+}
+
+#card2{
+  margin-top: -538px;
+  margin-left: 560px;
+}
+#card3{
+  margin-top: 35;
+  margin-left: 60px;
+}
+#card4{
+  margin-top: -538px;
+  margin-left: 560px;
+}
 .titulo{
   font-size: 24px;
   padding: 10px 10px 0 10px;;
@@ -70,7 +87,7 @@ img{
 	display: flex;
 	justify-content: space-between;
 	margin: 50px auto;
-	width: 500px;
+	width: 800px;
 	font-family: Arial, sans-serif;
 	background-color: white;
 }
@@ -86,7 +103,7 @@ img{
 .ficha #cinta{
 	margin-right: 1.5rem;
 	position: relative;
-	width: 10%;
+	width: 8%;
 }
 .ficha #texto{
 	color: dimgrey;
